@@ -95,6 +95,10 @@ ul li {
 .example {
     margin-top: 25px;
 }
+pre.snipt {
+    box-shadow: 0 0 15px #AAA;
+}
+
 pre {
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 5px 5px 5px 5px;
@@ -139,3 +143,12 @@ p code {
     text-align: center;
     text-decoration: none;
 }
+
+pre .built_in { color: #ae81ff; }
+pre .comment { color: #999; }
+pre .function .title { color: #86c20e; }
+pre .function .params { color: #fd971f; }
+pre .keyword { color: #44a0ef; }
+pre .literal { color: #ae81ff; }
+pre .number { color: #ae81ff; }
+pre .string { color: #ff6170; }

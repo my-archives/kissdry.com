@@ -125,6 +125,7 @@ p code {
 }
 #cfddream {
     -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
     background-color: #888888;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     left: -3.75em;

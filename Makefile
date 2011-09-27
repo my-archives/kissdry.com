@@ -1,7 +1,7 @@
 ROOT_DIR = .
 DOCS = ${ROOT_DIR}/docs
 ASSETS = ${ROOT_DIR}/assets
-HOME = ${ROOT_DIR}/~
+HOME = ${ROOT_DIR}/!
 
 MDS = $(shell find ${DOCS}/*.md)
 HTMLS = $(MDS:.md=.html)

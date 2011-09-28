@@ -45,10 +45,10 @@ function convert(file) {
         });	
 
         date.stdout.setEncoding('utf8');
-        date.stdout.on('data', function (data) {
-            datetime = data.trim();
+        date.stdout.on('data', function (d) {
+            datetime = d.trim();
 
-            fs.writeFile(filename, tc_start.replace(/@DATE@/, datetime)
+            fs.writeFile(filename, tc_start.replace(/@DATE@/g, datetime)
                          + markdown.parse(data)
                          + tc_end, function (err) {
                 if (err) throw err;

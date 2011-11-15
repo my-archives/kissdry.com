@@ -49,7 +49,7 @@ function convert(file) {
             datetime = d.trim();
 
             var h = tc_start.replace(/@DATE@/g, datetime)
-                    + markdown.parse(data)
+                    + markdown.toHTML(data)
                     + tc_end;
 
             fs.writeFile(filename, h, function (err) {

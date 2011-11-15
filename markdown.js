@@ -1,4 +1,4 @@
-var markdown = require('Markdown'),
+var markdown = require('./lib').markdown,
     spawn = require('child_process').spawn,
     date = spawn('date', ['+%Y-%m-%d %H:%M:%S']),
     fs = require('fs'),
@@ -48,9 +48,11 @@ function convert(file) {
         date.stdout.on('data', function (d) {
             datetime = d.trim();
 
-            fs.writeFile(filename, tc_start.replace(/@DATE@/g, datetime)
-                         + markdown.parse(data)
-                         + tc_end, function (err) {
+            var h = tc_start.replace(/@DATE@/g, datetime)
+                    + markdown.parse(data)
+                    + tc_end;
+
+            fs.writeFile(filename, h, function (err) {
                 if (err) throw err;
                 console.log(file + '.md to ' + file + '.html', 'saved.');
             });

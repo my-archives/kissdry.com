@@ -1,5 +1,6 @@
 ## Sites
 * [wtfjs.com](http://wtfjs.com/)
+* [promotejs.com](http://promotejs.com/ "Learn JavaScript JS")
 
 ## Article
 * [JavaScript Madness: Keyboard Events](http://unixpapa.com/js/key.html)

@@ -18,8 +18,8 @@ var markdown = require('./lib').markdown,
         'body_aside.html',
         'body_footer.html',
         'foot.html'],
-    datetime = '';
-
+    datetime = '',
+    ENCODING = 'utf8';
 
 function main() {
     files.forEach(function (v, i) {
@@ -30,32 +30,27 @@ function main() {
 function convert(file) {
     var filename = docs + file + md_stuffix, tc_start = '', tc_end = '';
 
-    fs.readFile(filename, 'utf-8', function (err, data) {
+    fs.readFile(filename, ENCODING, function (err, data) {
         if (err) {
             return console.log(filename, 'is not find.');
         };
         filename = home + file + html_stuffix;
 
         TC_START.forEach(function (item) {
-            tc_start += fs.readFileSync(assets + item, 'utf-8');
+            tc_start += fs.readFileSync(assets + item, ENCODING);
         });	
 
         TC_END.forEach(function (item) {
-            tc_end += fs.readFileSync(assets + item, 'utf-8');
+            tc_end += fs.readFileSync(assets + item, ENCODING);
         });	
 
-        date.stdout.setEncoding('utf8');
-        date.stdout.on('data', function (d) {
-            datetime = d.trim();
+        var h = tc_start.replace(/@DATE@/g, datetime)
+                + markdown.toHTML(data)
+                + tc_end;
 
-            var h = tc_start.replace(/@DATE@/g, datetime)
-                    + markdown.toHTML(data)
-                    + tc_end;
-
-            fs.writeFile(filename, h, function (err) {
-                if (err) throw err;
-                console.log(file + '.md to ' + file + '.html', 'saved.');
-            });
+        fs.writeFile(filename, h, ENCODING, function (err) {
+            if (err) throw err;
+            console.log(file + '.md to ' + file + '.html', 'saved.');
         });
     }); 
 }

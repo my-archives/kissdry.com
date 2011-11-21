@@ -1,11 +1,12 @@
-## Sites
+## Sites:
 * [wtfjs.com](http://wtfjs.com/)
 * [promotejs.com](http://promotejs.com/ "Learn JavaScript JS")
 
-## Article
+## Articles:
+* [Understanding V8](http://s3.mrale.ph/nodecamp.eu/#1 "Understanding V8")
 * [JavaScript Madness: Keyboard Events](http://unixpapa.com/js/key.html)
 * [Memory leak patterns in JavaScript](http://www.ibm.com/developerworks/web/library/wa-memleak/)
 
-## Online debug
+## Online Debug:
 * [jsfiddle.net](http://jsfiddle.net)
 * [jsconsole.com](http://console.com)

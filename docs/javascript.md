@@ -1,4 +1,5 @@
 ## Sites:
+* [js1k.com](http://js1k.com/ "JS1k, home of the 1k Javascript demo contest")
 * [wtfjs.com](http://wtfjs.com/)
 * [promotejs.com](http://promotejs.com/ "Learn JavaScript JS")
 

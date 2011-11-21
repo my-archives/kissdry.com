@@ -19,11 +19,16 @@ var markdown = require('./lib').markdown,
         'body_footer.html',
         'foot.html'],
     datetime = '',
+    DATEREG = /@DATE@/g,
     ENCODING = 'utf8';
 
 function main() {
-    files.forEach(function (v, i) {
-        convert(v);
+    date.stdout.setEncoding(ENCODING);
+    date.stdout.on('data', function (data) {
+        datetime = data.trim();
+        files.forEach(function (v, i) {
+            convert(v);
+        });
     });
 }
 
@@ -44,7 +49,7 @@ function convert(file) {
             tc_end += fs.readFileSync(assets + item, ENCODING);
         });	
 
-        var h = tc_start.replace(/@DATE@/g, datetime)
+        var h = tc_start.replace(DATEREG, datetime)
                 + markdown.toHTML(data)
                 + tc_end;
 

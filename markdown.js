@@ -20,7 +20,8 @@ var markdown = require('./lib').markdown,
         'foot.html'],
     datetime = '',
     DATEREG = /@DATE@/g,
-    ENCODING = 'utf8';
+    ENCODING = 'utf8',
+    INDEX = 'index';
 
 function main() {
     date.stdout.setEncoding(ENCODING);
@@ -33,13 +34,15 @@ function main() {
 }
 
 function convert(file) {
-    var filename = docs + file + md_stuffix, tc_start = '', tc_end = '';
+    var filename = docs + file + md_stuffix,
+        tc_start = '',
+        tc_end = '',
+        isIndex = file === INDEX;
 
     fs.readFile(filename, ENCODING, function (err, data) {
         if (err) {
             return console.log(filename, 'is not find.');
         };
-        filename = home + file + html_stuffix;
 
         TC_START.forEach(function (item) {
             tc_start += fs.readFileSync(assets + item, ENCODING);
@@ -47,10 +50,14 @@ function convert(file) {
 
         TC_END.forEach(function (item) {
             tc_end += fs.readFileSync(assets + item, ENCODING);
-        });	
+        });
+
+        filename = (isIndex ? root + '/' : home) + file + html_stuffix;
+
+        isIndex && (tc_start = tc_start.replace('href="../css', 'href="css'));
 
         var h = tc_start.replace(DATEREG, datetime)
-                + markdown.toHTML(data)
+                + (isIndex ? data : markdown.toHTML(data))
                 + tc_end;
 
         fs.writeFile(filename, h, ENCODING, function (err) {

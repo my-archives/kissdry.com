@@ -2,6 +2,7 @@
 * [js1k.com](http://js1k.com/ "JS1k, home of the 1k Javascript demo contest")
 * [wtfjs.com](http://wtfjs.com/)
 * [promotejs.com](http://promotejs.com/ "Learn JavaScript JS")
+* [mg demo](http://www.minimit.com/mg/mg-demo.html)
 
 ## Articles:
 * [Understanding V8](http://s3.mrale.ph/nodecamp.eu/#1 "Understanding V8")

@@ -6,6 +6,7 @@
 * [wtfjs.com](http://wtfjs.com/)
 * [echojs.com](http://www.echojs.com/)
 * [promotejs.com](http://promotejs.com/ "Learn JavaScript JS")
+* [mg demo](http://www.minimit.com/mg/mg-demo.html)
 
 ## Articles:
 * [Scaling Isomorphic Javascript Code](http://blog.nodejitsu.com/scaling-isomorphic-javascript-code)

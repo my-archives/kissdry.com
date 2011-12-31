@@ -1,2 +1,2 @@
 ## Books
-* [Learn C The Hard Way](http://c.learncodethehardway.org/)
+  * [Learn C The Hard Way](http://c.learncodethehardway.org/)

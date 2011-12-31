@@ -1,2 +1,2 @@
 ## Sites:
-* [packagist](http://packagist.org/)
+  * [packagist](http://packagist.org/)

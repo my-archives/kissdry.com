@@ -1,4 +1,5 @@
 ## Books:
+* [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 * [20 things I learned about browser and the web](http://www.20thingsilearned.com/zh-CN/home)
 * rework
     * [REWORK](http://37signals.com/rework/)

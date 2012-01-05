@@ -2,3 +2,8 @@ http://www.faqs.org/docs/artu/index.html
 http://fossies.org/
 http://fossies.org/linux
 http://fossies.org/unix/privat/
+http://ftpmirror.gnu.org
+http://gnu.org
+http://www.gnu.org/prep/ftp.html
+http://mirrors.ustc.edu.cn/
+http://mirror.bjtu.edu.cn/cn/

@@ -1,3 +1,7 @@
+## Articles:
+  * [Vim Text Objects: The Definitive Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
+  * [How I boosted my Vim](http://nvie.com/posts/how-i-boosted-my-vim/)
+
 ## Sites:
   * [vim.wikia.com](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 

@@ -1,5 +1,6 @@
 ## Articles:
   * [node.js extensions with C++ and V8](http://kkaefer.github.com/node-cpp-modules/)
+  * [writing nodejs modules in cpp](http://lupomontero.e-noise.com/blog/writing-node-js-modules-in-cpp)
 
 ## Sites:
   * [nodeguide](http://nodeguide.com/)

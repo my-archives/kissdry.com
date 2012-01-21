@@ -4,6 +4,7 @@
 
 ## Sites:
   * [vim.wikia.com](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+  * [Vim documentation Chinese version](http://sourceforge.net/projects/vimcdoc/)
 
 ## Books:
   * [Vim revisited](http://mislav.uniqpath.com/2011/12/vim-revisited/)

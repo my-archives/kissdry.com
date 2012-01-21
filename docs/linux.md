@@ -4,3 +4,5 @@
 ## Sites:
   * [Text Ascii Art Generate](http://patorjk.com/software/taag/)
   * [The Linux Documentation Project](http://tldp.org)
+  * [Linuxconfig](http://linuxconfig.org/)
+  * [linuxcareer](http://how-to.linuxcareer.com/)

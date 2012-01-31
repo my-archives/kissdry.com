@@ -10,6 +10,7 @@
   * [Eloquent JavaScript A Modern Introduction to Programming](http://eloquentjavascript.net/)
 
 ## Sites:
+  * [Annotated ECMAScript 5.1](http://es5.github.com/)
   * [ECMAScript 5 compatibility table](http://kangax.github.com/es5-compat-table/)
   * [ecmascript](http://www.ecmascript.org/)
   * [js1k.com](http://js1k.com/ "JS1k, home of the 1k Javascript demo contest")

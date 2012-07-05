@@ -1,3 +1,4 @@
+http://www.plan9.bell-labs.com/
 http://www.faqs.org/docs/artu/index.html
 http://fossies.org/
 http://fossies.org/linux
@@ -7,3 +8,6 @@ http://gnu.org
 http://www.gnu.org/prep/ftp.html
 http://mirrors.ustc.edu.cn/
 http://mirror.bjtu.edu.cn/cn/
+http://www.pathname.com/fhs/
+http://pueblo.sourceforge.net/doc/manual/ansi_color_codes.html
+http://www.wangafu.net/~nickm/libevent-book/TOC.html

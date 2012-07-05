@@ -1,4 +1,5 @@
 ## Articles:
+  * [An Introduction to CSS transitions and transforms, MinneWebCon, 2012](http://tiffanybbrown.com/presentations/2012/minnewebcon/)
   * [Browser Specific CSS Hacks](http://paulirish.com/2009/browser-specific-css-hacks/)
   * [HTML5 Drag and Drop Upload and File API Tutorial](http://www.thebuzzmedia.com/html5-drag-and-drop-and-file-api-tutorial/)
   * [CSS3 Filters](http://www.inserthtml.com/2012/06/css-filters/)

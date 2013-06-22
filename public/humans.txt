@@ -1,0 +1,13 @@
+/* The humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Chef: FangDun Cai
+  Concat: cfddream [at] gmail.com
+  Twitter: @cfddream
+  Location: Shanghai, China
+
+/* SITE */
+  Standards: HTML5, CSS3
+  OpenSources: Nginx, Nodejs
+  Editors: Vim, Sublime Text

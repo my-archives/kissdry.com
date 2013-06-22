@@ -1,2 +1,5 @@
 #!/bin/bash
-ssh linode 'cd repos/kissdry && git pull'
+ssh linode 'cd repos/kissdry \
+  && git pull \
+  && export NODE_ENV=production \
+  && forever restart app.js'

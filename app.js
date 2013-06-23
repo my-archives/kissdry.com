@@ -32,6 +32,7 @@ app.locals({
 
   , isDevelopment     : config.isDevelopment
   , isProduction      : config.isProduction
+  , livereload        : config.isDevelopment && config.livereload
 
   // set layouts & partials basedir
   , basedir           : config.dirs.base
@@ -50,7 +51,7 @@ app.use(express.methodOverride());
 //app.use(express.cookieParser('your secret here'));
 //app.use(express.session());
 app.use(app.router);
-app.use(require('stylus').middleware(__dirname + '/public'));
+//app.use(require('stylus').middleware(__dirname + '/public'));
 app.use(express.static(config.dirs.pub));
 
 // error handle  - 404

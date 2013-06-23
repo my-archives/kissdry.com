@@ -18,5 +18,9 @@ module.exports = Object.freeze({
       , partials    : path.resolve('views/partials/')
     })
 
+  , livereload      : Object.freeze({
+      port          : 35729
+    })
+
   , ga              : 'UA-41848961-1'
 });

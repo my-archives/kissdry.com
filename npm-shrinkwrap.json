@@ -255,18 +255,16 @@
     },
     "stylus": {
       "version": "0.32.1",
-      "from": "stylus@*",
+      "from": "https://registry.npmjs.org/stylus/-/stylus-0.32.1.tgz",
       "resolved": "https://registry.npmjs.org/stylus/-/stylus-0.32.1.tgz",
       "dependencies": {
         "cssom": {
           "version": "0.2.5",
-          "from": "cssom@0.2.x",
-          "resolved": "https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz"
+          "from": "cssom@0.2.x"
         },
         "mkdirp": {
           "version": "0.3.5",
-          "from": "mkdirp@0.3.x",
-          "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+          "from": "mkdirp@0.3.x"
         },
         "debug": {
           "version": "0.7.2",

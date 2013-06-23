@@ -1,0 +1,7 @@
+if livereload
+  script.
+    (function (w, d, s) {
+      s = d.createElement('script');
+      s.src = '//' + location.hostname + ':#{livereload.port}/livereload.js?snipver=1';
+      s.async = 1; d.body.appendChild(s);
+    })(window, document);

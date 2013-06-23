@@ -2,4 +2,5 @@
 ssh linode 'cd repos/kissdry \
   && git pull \
   && export NODE_ENV=production \
+  && ./node_modules/.bin/grunt build \
   && forever restart app.js'

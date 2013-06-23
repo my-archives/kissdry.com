@@ -6,6 +6,10 @@ module.exports = Object.freeze({
   , isDevelopment   : env.NODE_ENV !== 'production'
   , isProduction    : env.NODE_ENV === 'production'
 
+  , livereload      : Object.freeze({
+      port          : 35729
+    })
+
   , port            : env.PORT || 3000
 
   , version         : require('../package').version
@@ -16,10 +20,6 @@ module.exports = Object.freeze({
       , views       : path.resolve('views/pages/')
       , layouts     : path.resolve('views/layouts/')
       , partials    : path.resolve('views/partials/')
-    })
-
-  , livereload      : Object.freeze({
-      port          : 35729
     })
 
   , ga              : 'UA-41848961-1'

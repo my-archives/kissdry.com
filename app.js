@@ -38,6 +38,8 @@ app.locals({
   , basedir           : config.dirs.base
 
   , ga                : config.isProduction && config.ga
+
+  , mixpanel          : config.isProduction && config.mixpanel
 });
 
 

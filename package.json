@@ -11,5 +11,18 @@
     "stylus": "~0.32.1",
     "marked": "~0.2.9",
     "socket.io": "~0.9.16"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-stylus": "~0.5.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-devtools": "~0.1.0-7",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-express-server": "~0.4.0",
+    "grunt-contrib-jade": "~0.7.0"
   }
 }

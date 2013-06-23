@@ -78,18 +78,6 @@ module.exports = function(grunt) {
       }
     }
 
-  , jade: {
-    compile: {
-        src: ['views/{,*/}*/.jade'],
-        dest: 'views',
-        options: {
-          pretty: true,
-          client : false,
-          runtime : false
-        }
-      }
-    }
-
     // cssmin
   , cssmin: {
       options: {

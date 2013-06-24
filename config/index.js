@@ -25,6 +25,6 @@ module.exports = Object.freeze({
 
   , ga              : 'UA-41848961-1'
 
-  , mixpanel        : '05fb2a9f6296515a02399c9536478664'
+  //, mixpanel        : '05fb2a9f6296515a02399c9536478664'
 
 });

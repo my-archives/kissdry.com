@@ -348,6 +348,18 @@
           "resolved": "https://registry.npmjs.org/redis/-/redis-0.7.3.tgz"
         }
       }
+    },
+    "newrelic": {
+      "version": "0.9.22",
+      "from": "newrelic@",
+      "resolved": "https://registry.npmjs.org/newrelic/-/newrelic-0.9.22.tgz",
+      "dependencies": {
+        "bunyan": {
+          "version": "0.14.0",
+          "from": "bunyan@~0.14.0",
+          "resolved": "https://registry.npmjs.org/bunyan/-/bunyan-0.14.0.tgz"
+        }
+      }
     }
   }
 }

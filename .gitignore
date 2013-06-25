@@ -1,3 +1,4 @@
+config/newrelic.js
 node_modules/
 components/
-config/newrelic.js
+newrelic_agent.log

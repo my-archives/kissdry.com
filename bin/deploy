@@ -1,7 +1,11 @@
 #!/bin/bash
-ssh linode 'cd repos/kissdry \
-  && git pull \
-  && export NODE_ENV=production \
-  && export NEW_RELIC_HOME=$(pwd)/config \
-  && ./node_modules/.bin/grunt build \
-  && forever restart app.js'
+# $1:
+#   start stop restart
+if [ -n "$1" ]; then
+  ssh linode "cd repos/kissdry \
+    && git pull \
+    && export NODE_ENV=production \
+    && export NEW_RELIC_HOME=$(pwd)/config \
+    && ./node_modules/.bin/grunt build \
+    && forever $1 app.js"
+fi

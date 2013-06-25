@@ -1,3 +1,6 @@
+if (process.env.NEW_RELIC_HOME) {
+  require('newrelic');
+}
 
 /**
  * Module dependencies.

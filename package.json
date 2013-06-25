@@ -10,7 +10,8 @@
     "jade": "~0.31.2",
     "stylus": "~0.32.1",
     "marked": "~0.2.9",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "newrelic": "~0.9.22"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

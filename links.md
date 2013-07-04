@@ -1,17 +1,34 @@
-- http://html5boilerplate.com/
-- http://humanstxt.org/
-- http://editorconfig.org/
-- http://robotstxt.org/
+## JavaScript
+  - http://expressjs.com/
+  - http://component.io/
+  - http://npmjs.org/
+  - http://www.jshint.com/
+  - http://gruntjs.com/
+  - http://craig.is/making/rainbows/
+  - http://prismjs.com//
+  - http://cdnjs.com/
 
-- http://typeplate.com/
-- http://jade-lang.com/
-- http://learnboost.github.io/stylus/
-- http://purecss.io/
+## Stylus & CSS
+  - http://learnboost.github.io/stylus/
+  - http://purecss.io/
+  - http://cardinalcss.com/
+  - http://typeplate.com/
 
-- https://typekit.com/
+## Template Engine
+  - http://jade-lang.com/
 
-- http://npmjs.org/
-- http://gruntjs.com/
+## Fonts
+  - https://typekit.com/
 
-- http://craig.is/making/rainbows/
-- http://prismjs.com//
+## Others
+  - http://superherojs.com/
+  - http://semver.org/
+  - http://html5boilerplate.com/
+  - http://editorconfig.org/
+  - http://humanstxt.org/
+  - http://robotstxt.org/
+  - http://enable-cors.or/
+
+## Services
+  - https://newrelic.com/
+  - http://nodefly.com/

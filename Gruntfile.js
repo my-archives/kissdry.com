@@ -1,22 +1,6 @@
 'use strict';
 
 module.exports = function(grunt) {
-  // load all grunt tasks
-  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  /*
-  grunt-contrib-clean
-  grunt-contrib-stylus
-  grunt-contrib-watch
-  grunt-contrib-cssmin
-  grunt-contrib-livereload;
-  grunt-devtools
-
-  // for express
-  grunt-express-server
-
-  // for connect
-  grunt-contrib-connect
-  */
 
   var isProduction = !grunt.option('debug');
 
@@ -32,7 +16,7 @@ module.exports = function(grunt) {
         script: 'app.js'
       }
     }
-    , prod: { }
+    //, prod: { }
     }
 
     // watch
@@ -94,6 +78,7 @@ module.exports = function(grunt) {
 
   });
 
+
   // server
   grunt.registerTask('server', ['express:dev', 'watch']);
 
@@ -101,6 +86,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', 'Build all files.', function () {
     grunt.task.run('build:' + (isProduction ? 'prod' : 'dev'));
   });
+
   // build dev
   grunt.registerTask('build:dev', [
       'clean:dist'
@@ -118,4 +104,21 @@ module.exports = function(grunt) {
     'build'
   ]);
 
+
+  // load all grunt tasks
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+  /*
+  grunt-contrib-clean
+  grunt-contrib-stylus
+  grunt-contrib-watch
+  grunt-contrib-cssmin
+  grunt-contrib-livereload;
+  grunt-devtools
+
+  // for express
+  grunt-express-server
+
+  // for connect
+  grunt-contrib-connect
+  */
 };

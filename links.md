@@ -13,6 +13,7 @@
   - http://purecss.io/
   - http://cardinalcss.com/
   - http://typeplate.com/
+  - http://smacss.com/
 
 ## Template Engine
   - http://jade-lang.com/
@@ -21,13 +22,14 @@
   - https://typekit.com/
 
 ## Others
-  - http://superherojs.com/
   - http://semver.org/
-  - http://html5boilerplate.com/
-  - http://editorconfig.org/
+  - http://tomdoc.org/
   - http://humanstxt.org/
   - http://robotstxt.org/
-  - http://enable-cors.or/
+  - http://enable-cors.org/
+  - http://editorconfig.org/
+  - http://superherojs.com/
+  - http://html5boilerplate.com/
 
 ## Services
   - https://newrelic.com/

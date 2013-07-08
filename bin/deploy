@@ -4,7 +4,7 @@
 if [ -n "$1" ]; then
   kissdry="repos/kissdry"
   ssh linode "cd $kissdry \
-    && git checkout -f \
+    && git pull \
     && export NODE_ENV=production \
     && export NEW_RELIC_HOME=\$(pwd)/config \
     && ./node_modules/.bin/grunt build \

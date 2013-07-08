@@ -40,6 +40,8 @@ app.locals({
   // set layouts & partials basedir
   , basedir           : config.dirs.base
 
+  , blogDir           : config.dirs.blog
+
   , ga                : config.isProduction && config.ga
 
   , mixpanel          : config.isProduction && config.mixpanel
@@ -55,6 +57,7 @@ app.use(express.bodyParser());
 app.use(express.methodOverride());
 //app.use(express.session());
 app.use(app.router);
+app.use(middleware.slash);
 app.use(express.static(config.dirs.pub));
 
 // error handle  - 404
@@ -76,6 +79,10 @@ if (config.isDevelopment) {
 // -- Routes -----------------------------------------------------------------
 
 app.get('/', routes.index);
+
+app.get('/blog/', routes.blog);
+
+app.get('/blog/:year/:month/:title/', routes.post);
 
 
 // -- Server -----------------------------------------------------------------

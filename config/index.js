@@ -21,6 +21,8 @@ module.exports = Object.freeze({
       , views       : path.resolve('views/pages/')
       , layouts     : path.resolve('views/layouts/')
       , partials    : path.resolve('views/partials/')
+      , content     : path.resolve('content/')
+      , blog        : path.resolve('content/blog/')
     })
 
   , ga              : 'UA-41848961-1'

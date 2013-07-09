@@ -2,10 +2,17 @@ var fs = require('fs')
   , path = require('path')
   , MarkdownReader = require('../lib/yfm');
 
+/**
+ * Blog post list.
+ */
+
 exports.index = function (req, res) {
-  res.render('blog', { title: 'Blog' });
+  res.render('listing', { title: 'Blog' });
 };
 
+/**
+ * Blog entry post.
+ */
 
 exports.post = function (req, res, next) {
   var params = req.params
@@ -20,8 +27,11 @@ exports.post = function (req, res, next) {
     if (!exists) {
       return res.send(404);
     }
+
     new MarkdownReader(file, function (meta, body) {
       meta.article = body;
+      console.dir(meta);
+      !meta.updated && (meta.updated = meta.date);
       res.render('post', meta);
     });
   });

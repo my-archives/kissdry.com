@@ -279,7 +279,7 @@
     },
     "socket.io": {
       "version": "0.9.16",
-      "from": "socket.io@",
+      "from": "https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz",
       "resolved": "https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz",
       "dependencies": {
         "socket.io-client": {
@@ -293,9 +293,8 @@
               "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-1.2.5.tgz"
             },
             "ws": {
-              "version": "0.4.25",
+              "version": "0.4.27",
               "from": "ws@0.4.x",
-              "resolved": "https://registry.npmjs.org/ws/-/ws-0.4.25.tgz",
               "dependencies": {
                 "commander": {
                   "version": "0.6.1",
@@ -303,13 +302,11 @@
                 },
                 "tinycolor": {
                   "version": "0.0.1",
-                  "from": "tinycolor@0.x",
-                  "resolved": "https://registry.npmjs.org/tinycolor/-/tinycolor-0.0.1.tgz"
+                  "from": "tinycolor@0.x"
                 },
                 "options": {
                   "version": "0.0.5",
-                  "from": "options@latest",
-                  "resolved": "https://registry.npmjs.org/options/-/options-0.0.5.tgz"
+                  "from": "options@>=0.0.5"
                 }
               }
             },
@@ -325,8 +322,7 @@
               "dependencies": {
                 "zeparser": {
                   "version": "0.0.5",
-                  "from": "zeparser@0.0.5",
-                  "resolved": "https://registry.npmjs.org/zeparser/-/zeparser-0.0.5.tgz"
+                  "from": "zeparser@0.0.5"
                 }
               }
             }
@@ -339,8 +335,7 @@
         },
         "base64id": {
           "version": "0.1.0",
-          "from": "base64id@0.1.0",
-          "resolved": "https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz"
+          "from": "base64id@0.1.0"
         },
         "redis": {
           "version": "0.7.3",
@@ -964,7 +959,7 @@
     },
     "grunt-contrib-watch": {
       "version": "0.4.4",
-      "from": "grunt-contrib-watch@",
+      "from": "grunt-contrib-watch@0.4.4",
       "dependencies": {
         "gaze": {
           "version": "0.3.4",
@@ -980,13 +975,15 @@
                 },
                 "sigmund": {
                   "version": "1.0.0",
-                  "from": "sigmund@~1.0.0"
+                  "from": "sigmund@~1.0.0",
+                  "resolved": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
                 }
               }
             },
             "fileset": {
               "version": "0.1.5",
               "from": "fileset@~0.1.5",
+              "resolved": "https://registry.npmjs.org/fileset/-/fileset-0.1.5.tgz",
               "dependencies": {
                 "glob": {
                   "version": "3.2.1",
@@ -994,7 +991,8 @@
                   "dependencies": {
                     "graceful-fs": {
                       "version": "1.2.2",
-                      "from": "graceful-fs@~1.2.0"
+                      "from": "graceful-fs@~1.2.0",
+                      "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.2.tgz"
                     },
                     "inherits": {
                       "version": "1.0.0",
@@ -1009,18 +1007,20 @@
         "tiny-lr": {
           "version": "0.0.4",
           "from": "tiny-lr@0.0.4",
+          "resolved": "https://registry.npmjs.org/tiny-lr/-/tiny-lr-0.0.4.tgz",
           "dependencies": {
             "qs": {
-              "version": "0.5.6",
+              "version": "0.5.2",
               "from": "qs@~0.5.2"
             },
             "faye-websocket": {
-              "version": "0.4.4",
+              "version": "0.4.3",
               "from": "faye-websocket@~0.4.3"
             },
             "noptify": {
               "version": "0.0.3",
               "from": "noptify@latest",
+              "resolved": "https://registry.npmjs.org/noptify/-/noptify-0.0.3.tgz",
               "dependencies": {
                 "nopt": {
                   "version": "2.0.0",

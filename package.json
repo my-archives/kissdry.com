@@ -5,7 +5,7 @@
   "homepage": "http://kissdry.com/",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "~3.2.6",

@@ -9,11 +9,11 @@ module.exports = function(grunt) {
     // express
     express: {
       options: {
-        script: 'app.js'
+        script: 'server.js'
       }
     , dev: {
       options: {
-        script: 'app.js'
+        script: 'server.js'
       }
     }
     //, prod: { }
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
       , tasks: ['stylus:compile']
       }
     , express: {
-        files:  ['app.js']
+        files:  ['server.js']
       , tasks:  ['express:dev', 'livereload']
       }
     }

@@ -8,5 +8,5 @@ if [ -n "$1" ]; then
     && export NODE_ENV=production \
     && export NEW_RELIC_HOME=\$(pwd)/config \
     && ./node_modules/.bin/grunt build \
-    && forever $1 app.js"
+    && forever $1 server.js"
 fi

@@ -1,6 +1,6 @@
 var fs = require('fs')
   , path = require('path')
-  , MarkdownReader = require('../lib/yfm');
+  , MarkdownReader = require('../../lib/yfm');
 
 /**
  * Blog post list.
@@ -30,7 +30,6 @@ exports.post = function (req, res, next) {
 
     new MarkdownReader(file, function (meta, body) {
       meta.article = body;
-      console.dir(meta);
       !meta.updated && (meta.updated = meta.date);
       res.render('post', meta);
     });

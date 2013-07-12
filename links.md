@@ -7,6 +7,7 @@
   - http://craig.is/making/rainbows/
   - http://prismjs.com//
   - http://cdnjs.com/
+  - http://www.greensock.com/
 
 ## Stylus & CSS
   - http://learnboost.github.io/stylus/
@@ -14,6 +15,9 @@
   - http://cardinalcss.com/
   - http://typeplate.com/
   - http://smacss.com/
+
+# SVG
+  - http://bramp.github.io/js-sequence-diagrams/
 
 ## Template Engine
   - http://jade-lang.com/
